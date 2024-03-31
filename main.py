@@ -5,7 +5,7 @@ def main():
     char_count = count_chars(text)
     char_count_sorted = char_count_to_sorted_list(char_count)
 
-    print(f"---= Report of : {path} =---")
+    print(f"---= Report of {path} =---")
     print(f"{word_count} words found!")
 
     for item in char_count_sorted:
